@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import brain_games.cli
 
+
 def main():
     brain_games.cli.welcome_user()
 
