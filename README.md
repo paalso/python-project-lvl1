@@ -6,4 +6,9 @@
 ### Code Climate maintainability status
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
+### Flake8 linter status
+[![flake8 lint](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml/badge.svg)](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml)
+
 #### [Brain Games](https://ru.hexlet.io/programs/python/projects/49). Level 1 project on Hexlet, program [Python developer](https://ru.hexlet.io/programs/python).
+
+
