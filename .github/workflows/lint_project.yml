@@ -1,0 +1,44 @@
+# имя, чтобы отображалось в интерфейсе
+name: 'flake8 lint'
+
+# список событий, на который экшен должен запускаться
+on:  push
+
+# список того, что нужно делать
+# каждый job будет выводиться отдельным элементом слева UI
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # we want to test our package on several versions of Python
+        # python-version: [3.6, 3.7, 3.8, 3.9], but let's leave so:
+        python-version: [3.6]
+
+    steps:
+      # uses указывает имена уже написанных экшенов, к-е хотим использовать
+
+      # checkout делает pull репозитория и ветки, в котором запущен;
+      # таким образом мы получаем доступ к коду
+      - uses: actions/checkout@v2
+
+      # setup-python@v2 устанавливает python
+      - uses: actions/setup-python@v2
+      
+      # Gr1N/setup-poetry@v7 устанавливает python poetry
+      - uses: Gr1N/setup-poetry@v7
+
+      # ↓ -это делать необязательно: flake8 уже есть в dev-зависимостях
+      # проекта (описан в pyproject.toml) в [tool.poetry.dev-dependencies]
+      # - name: Install flake8
+        # run: poetry add --dev flake8
+
+      # Это принципиальный момент - хоть flake8 и указан в dev-зависимостях
+      # (см. выше), но по умолчанию не устанавливается - его нужно установить
+      # явно
+      - name: Install dependencies
+        run: make install
+
+      - name: Lint with flake8
+        run: make lint
