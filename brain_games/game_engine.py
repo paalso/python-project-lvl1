@@ -15,7 +15,7 @@ def print_wrong_answer_msg(name, answer, question, correct_answer):
 
 
 # "even", "calc", "gcd", "progression", "prime"
-def run_game(game_name="", questions_number=QUESTIONS_NUMBER):
+def run_game(game_name, questions_number=QUESTIONS_NUMBER):
 
     game_lib = importlib.import_module(
         "brain_games.gamelibs.{}".format(game_name))
