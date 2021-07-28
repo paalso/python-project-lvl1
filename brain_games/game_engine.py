@@ -18,7 +18,7 @@ def print_wrong_answer_msg(name, answer, question, correct_answer):
 def run_game(game_name, questions_number=QUESTIONS_NUMBER):
 
     game_lib = importlib.import_module(
-        "brain_games.gamelibs.{}".format(game_name))
+        "brain_games.games.{}".format(game_name))
 
     print("Welcome to the Brain Games!")
     name = get_name()
