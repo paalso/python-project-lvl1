@@ -1,4 +1,7 @@
-# Brain games
+# [Brain games](https://ru.hexlet.io/programs/python/projects/49)
+
+### Level 1 project on Hexlet, program [Python developer](https://ru.hexlet.io/programs/python).
+
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/paalso/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/paalso/python-project-lvl1/actions)
@@ -9,6 +12,26 @@
 ### Flake8 linter status
 [![flake8 lint](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml/badge.svg)](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml)
 
-#### [Brain Games](https://ru.hexlet.io/programs/python/projects/49). Level 1 project on Hexlet, program [Python developer](https://ru.hexlet.io/programs/python).
+
+## Games:
+### brain-even
+#### Check if the number is even
+[![asciicast](https://asciinema.org/a/6rg2rojBjl62lmNd6h6DDZ1WU.svg)](https://asciinema.org/a/6rg2rojBjl62lmNd6h6DDZ1WU)
+
+### brain-calc
+### Calculate the result of expression
+[![asciicast](https://asciinema.org/a/xVqccFtpv8IYika9St8qsu58g.svg)](https://asciinema.org/a/xVqccFtpv8IYika9St8qsu58g)
+
+### brain-gcd
+#### Find greatest common divisor
+[![asciicast](https://asciinema.org/a/alHMBo0S4Ch3cmZv3NtSM94br.svg)](https://asciinema.org/a/alHMBo0S4Ch3cmZv3NtSM94br)
+
+### brain-progression
+#### Find a missing number in progression
+[![asciicast](https://asciinema.org/a/Sv8moOEugemgIL3e14GqkmdPV.svg)](https://asciinema.org/a/Sv8moOEugemgIL3e14GqkmdPV)
+
+### brain-prime
+#### Check if the number is prime
+[![asciicast](https://asciinema.org/a/HWQKrBJZ6LYdfrXhLcYm1mbMF.svg)](https://asciinema.org/a/HWQKrBJZ6LYdfrXhLcYm1mbMF)
 
 
