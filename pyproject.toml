@@ -1,10 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Hexlet Project 'Brain Games'"
+description = "Hexlet Level 1 Project 'Brain Games', program 'Python developer'."
 authors = ["paalso <40a.pvl@gmail.com>"]
 packages = [
   { include = "brain_games" },
+]
+repository = "https://github.com/paalso/python-project-lvl1"
+classifiers = [
+  "Environment :: Console",
+  "Topic :: Games/Entertainment :: Puzzle Games"
 ]
 
 [tool.poetry.scripts]
