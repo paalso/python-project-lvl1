@@ -9,7 +9,7 @@ def gen_question():
 
 
 def str_question(question):
-    return str(question)
+    return " ".join(map(str, question))
 
 
 def correct_answer(question):

@@ -24,7 +24,7 @@
 
 ### brain-gcd
 #### Find greatest common divisor
-[![asciicast](https://asciinema.org/a/alHMBo0S4Ch3cmZv3NtSM94br.svg)](https://asciinema.org/a/alHMBo0S4Ch3cmZv3NtSM94br)
+[![asciicast](https://asciinema.org/a/MR8EVcNNKGjXiGPH3fCuuoNNw.svg)](https://asciinema.org/a/MR8EVcNNKGjXiGPH3fCuuoNNw)
 
 ### brain-progression
 #### Find a missing number in progression
