@@ -19,8 +19,6 @@ pip install --user git+https://github.com/paalso/python-project-lvl1.git
 ```
 
 ## Games:
-
-## Games:
 ### brain-even
 #### Check if the number is even
 [![asciicast](https://asciinema.org/a/6rg2rojBjl62lmNd6h6DDZ1WU.svg)](https://asciinema.org/a/6rg2rojBjl62lmNd6h6DDZ1WU)
