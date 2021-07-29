@@ -12,6 +12,13 @@
 ### Flake8 linter status
 [![flake8 lint](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml/badge.svg)](https://github.com/paalso/python-project-lvl1/actions/workflows/lint_project.yml)
 
+## Installation:
+
+```sh
+pip install --user git+https://github.com/paalso/python-project-lvl1.git
+```
+
+## Games:
 
 ## Games:
 ### brain-even
